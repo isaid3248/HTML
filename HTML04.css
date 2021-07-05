@@ -1,0 +1,116 @@
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+#underline:link {
+    text-decoration: none;
+}
+
+#newTab:link {
+    color: rgb(182, 17, 58);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #newTab:visited {
+    color: rgb(255, 208, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #newTab:hover {
+    color: rgb(43, 19, 177);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #newTab:active {
+    color: rgb(14, 224, 42);
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+
+img {
+    width: 170px;
+    height: 130px;
+    }
+
+#Chapter4:link {
+    color: rgb(135, 11, 236);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #Chapter4:visited {
+    color: rgb(156, 135, 126);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #Chapter4:hover {
+    color: rgb(90, 26, 26);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #Chapter4:active {
+    color: rgb(33, 19, 231);
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+#Chapter10:link {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #Chapter10:visited {
+    color: turquoise;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #Chapter10:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #Chapter10:active {
+    color: brown;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+#head:link {
+    color: orchid;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #head:visited {
+    color: rosybrown;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  #head:hover {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #head:active {
+    color: royalblue;
+    background-color: transparent;
+    text-decoration: underline;
+
+
+}

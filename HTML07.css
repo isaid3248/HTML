@@ -1,0 +1,27 @@
+ul#horizontal01 li {
+    display:inline;
+}
+
+ul#horizontal02 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+  
+ul#horizontal02 li {
+    float: left;
+}
+  
+ul#horizontal02 li a {
+    display: block;
+    color: rgb(19, 211, 179);
+    text-align: center;
+    padding: 16px;
+    text-decoration: wavy;
+}
+  
+ul#horizontal02 li a:hover {
+    background-color: #111111;
+}

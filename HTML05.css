@@ -1,0 +1,35 @@
+#HTML5 {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #555;
+    margin: 5px;
+    vertical-align: top;
+}
+#Waving {
+    width: 300px;
+    height: 200px;
+    border: 15px solid orangered;
+
+}
+#RDR2 {
+    vertical-align: top;
+}
+#Guy {
+    width: 300px;
+    height: 200px;
+    vertical-align: top;
+}
+#Planets {
+    width: 145px;
+    height: 126px;
+}
+#Right {
+    float: right;
+    width: 42px;
+    height: 42px;
+}
+#Left {
+    float: left;
+    width: 42px;
+    height: 42px;
+}

@@ -1,0 +1,59 @@
+<html>
+<head>
+    <link rel="stylesheet" href="HTML08.css">
+</head>
+<body>
+
+<div id="div01">Hello World </div>
+
+<!----><hr>
+
+<p>This is an inline span <span id="span01">Hello World</span> element inside a paragraph.</p>
+
+<!----><hr>
+
+<p>My mother has <span id="span02">blue</span> eyes and my 
+    father has <span id="span03">dark green</span> eyes.
+</p>
+    
+<!----><hr>
+
+<div id="div03"><a href="https://www.haberler.com/" target="_blank">SON DAKİKA !</a></div>
+
+<!----><hr>
+
+<div class="cities">
+    <h2>London</h2>
+    <p>London is the capital of England.</p>
+    </div> 
+    
+<div class="cities">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+    </div>
+    
+<div class="cities">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+</div> 
+
+<!----><hr>
+
+<h1 id="myHeader">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<button id="google" onclick="openInNewTab('https://www.google.com')" type="button">Google</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}
+
+function openInNewTab(url) {
+  window.open(url, '_blank').focus();
+}
+</script>
+
+
+</body>
+</html>
