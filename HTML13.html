@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+    <!-- If you click the "Submit" button, the form-data will be sent to the linked page. --><hr>
+<form action="https://www.instagram.com/ismailsaidd/">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Ismail Said"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Cakir"><br><br>
+    <input type="submit" value="Submit">
+</form> 
+
+<!-- Radio buttons let a user select ONE of a limited number of choices. --><hr>
+<form>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+</form>
+
+<!-- Checkboxes let a user select ZERO or MORE options of a limited number of choices. --><hr>
+<form>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label>
+</form>
+
+<!-- The fieldset element is used to group related data in a form,
+     and the legend element defines a caption for the fieldset element. --><hr>
+<form action="/action_page.php" target="_blank">
+    <fieldset>
+      <legend>Personalia:</legend>
+      <label for="fname1">First name:</label><br>
+      <input type="text" id="fname1" name="fname1" value="John"><br>
+      <label for="lname1">Last name:</label><br>
+      <input type="text" id="lname1" name="lname1" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </fieldset>
+</form>
+
+<!-- The select element defines a drop-down list. You can preselect an option with the selected attribute: --><hr>
+<form action="/action_page.php">
+    <label for="cars">Choose a car:</label>
+    <select id="cars" name="cars">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat" selected>Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
+    <input type="submit">
+</form>
+
+<!-- The textarea element defines a multi-line input field. --><hr>
+<form action="/action_page.php">
+    <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+    <br><br>
+    <input type="submit">
+</form>
+  
+<!-- Display an alert box with a button. --><hr>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<!-- The datalist element specifies a list of pre-defined options for an input element. --><hr>
+<form action="/action_page.php">
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit">
+</form>
+
+<!-- The output element represents the result of a calculation. -->
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" max="100" id="a" name="a" value="50">
+  100 +
+  <input type="number" min="10" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
