@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    
+    <!-- The autocomplete attribute specifies whether or not an input field should have autocomplete enabled. -->
+    <form action="/action_page.php" autocomplete="on">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" autocomplete="off">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- The novalidate attribute specifies that the form data should not be validated when submitted. --><br><hr><br>
+    <form action="/action_page.php" novalidate>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- The autofocus attribute specifies that the input field should automatically get focus when the page loads. --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+     
+    <!-- The "Last name" field below is outside the form element, but still part of the form. --><br><hr><br>
+    <form action="/action_page.php" id="form1">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" form="form1"><br><br>
+
+    <!-- The formaction attribute specifies the URL of a file that will process the input when the form is submitted. --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Sign in">
+        <input type="submit" formaction="/action_page2.php" value="Sign up">
+    </form>
+
+    <!-- The input formnovalidate attribute --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+    </form>
+
+    <!-- The formtarget attribute specifies a name or a keyword that indicates where to display the response that is received after
+         submitting the form. --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+    </form>
+      
+    <!-- The input type="image" sends the X and Y coordinates of the click that activated the image button. --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="image" src="https://www.w3schools.com/html/img_submit.gif" alt="Submit" width="48" height="48">
+    </form>
+
+    <!-- The multiple attribute specifies that user is allowed to enter more than one value in an input field. CTRL and SHIFT. --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="files">Select files:</label>
+        <input type="file" id="files" name="files" multiple><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- The pattern attribute specifies a regular expression that the input element's value is checked against. --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- The required attribute specifies that an input field must be filled out before submitting the form. --><br><hr><br>
+    <form action="/action_page.php">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
